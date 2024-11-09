@@ -60,3 +60,22 @@ h1, h2, h3 {
     font-size: 4rem;
     font-weight: normal;
 }
+a {
+    color: var(--magenta);
+}
+
+a:hover{
+    color: var(--hotmag);
+    text-decoration: none;
+}
+
+/* contact sectio */
+#contact {
+    width: 400px;
+    text-align: center;
+    margin: 0, auto;
+    padding: 3rem 0;
+}
+#contact p:last-child{
+    margin-top: 3rem;
+}
